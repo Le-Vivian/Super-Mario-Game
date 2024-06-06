@@ -1,0 +1,10 @@
+added manifest
+adding: a13-jar.err(in = 0) (out= 0)(stored 0%)
+adding: a13-jar.out(in = 65) (out= 63)(deflated 3%)
+adding: images/(in = 0) (out= 0)(stored 0%)
+adding: images/bowserImage.jpg(in = 61916) (out= 61679)(deflated 0%)
+adding: server/(in = 0) (out= 0)(stored 0%)
+adding: server/ConnectionHandler.class(in = 5232) (out= 2755)(deflated 47%)
+adding: server/Server.class(in = 2201) (out= 1230)(deflated 44%)
+adding: server/ServerMain.class(in = 1763) (out= 946)(deflated 46%)
+adding: server/serverFrame.class(in = 5369) (out= 2776)(deflated 48%)

@@ -1,0 +1,19 @@
+src\server\serverFrame.java:143: warning: [static] static variable should be qualified by type name, serverFrame, instead of by an expression
+		this.protocol = message;
+		    ^
+src\server\serverFrame.java:21: warning: [serial] serializable class serverFrame has no definition of serialVersionUID
+public class serverFrame extends JPanel implements ActionListener{
+       ^
+src\server\serverFrame.java:24: warning: [serial] non-transient instance field of a serializable class declared with a non-serializable type
+	ConnectionHandler handler;
+	                  ^
+src\server\ConnectionHandler.java:145: warning: [static] static variable should be qualified by type name, ConnectionHandler, instead of by an expression
+		this.message = message;
+		    ^
+src\server\ConnectionHandler.java:276: warning: [rawtypes] found raw type: ArrayList
+public ArrayList getScoreBank() {
+       ^
+  missing type arguments for generic class ArrayList<E>
+  where E is a type-variable:
+    E extends Object declared in class ArrayList
+5 warnings

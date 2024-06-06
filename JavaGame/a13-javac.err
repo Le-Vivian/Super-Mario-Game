@@ -1,0 +1,86 @@
+src\View\ClientFrame.java:28: warning: [rawtypes] found raw type: JComboBox
+		private JComboBox comboBox = new JComboBox(mapOptions); 
+		        ^
+  missing type arguments for generic class JComboBox<E>
+  where E is a type-variable:
+    E extends Object declared in class JComboBox
+src\View\ClientFrame.java:28: warning: [rawtypes] found raw type: JComboBox
+		private JComboBox comboBox = new JComboBox(mapOptions); 
+		                                 ^
+  missing type arguments for generic class JComboBox<E>
+  where E is a type-variable:
+    E extends Object declared in class JComboBox
+src\View\ClientFrame.java:28: warning: [unchecked] unchecked call to JComboBox(E[]) as a member of the raw type JComboBox
+		private JComboBox comboBox = new JComboBox(mapOptions); 
+		                             ^
+  where E is a type-variable:
+    E extends Object declared in class JComboBox
+src\View\ClientFrame.java:22: warning: [serial] serializable class ClientFrame has no definition of serialVersionUID
+	public class ClientFrame extends JPanel implements ActionListener{
+	       ^
+src\View\GamePanel.java:28: warning: [serial] serializable class GamePanel has no definition of serialVersionUID
+public class GamePanel extends JPanel implements Runnable {
+       ^
+src\View\GamePanel.java:32: warning: [serial] non-transient instance field of a serializable class declared with a non-serializable type
+	GameCompleteWindow gameComplete;
+	                   ^
+src\View\GamePanel.java:33: warning: [serial] non-transient instance field of a serializable class declared with a non-serializable type
+	GameOverWindow gameOver;
+	               ^
+src\View\GamePanel.java:35: warning: [serial] non-transient instance field of a serializable class declared with a non-serializable type
+	MainFrame mainframe;
+	          ^
+src\View\GamePanel.java:36: warning: [serial] non-transient instance field of a serializable class declared with an array having a non-serializable base component type entity
+	entity[] monsterArray = new entity[5];
+	         ^
+src\View\GamePanel.java:54: warning: [serial] non-transient instance field of a serializable class declared with a non-serializable type
+	Image image = icon.getImage();
+	      ^
+src\View\GamePanel.java:55: warning: [serial] non-transient instance field of a serializable class declared with a non-serializable type
+	Image scaledImage = image.getScaledInstance(1000, 1000, java.awt.Image.SCALE_SMOOTH);
+	      ^
+src\View\GamePanel.java:63: warning: [serial] non-transient instance field of a serializable class declared with a non-serializable type
+	Thread gameThread;
+	       ^
+src\View\GamePanel.java:118: warning: [serial] non-transient instance field of a serializable class declared with a non-serializable type
+	public TileManager tileM;
+	                   ^
+src\View\GamePanel.java:121: warning: [serial] non-transient instance field of a serializable class declared with a non-serializable type
+	KeyHandler keyHandler;
+	           ^
+src\View\GamePanel.java:122: warning: [serial] non-transient instance field of a serializable class declared with a non-serializable type
+	public CollisionChecker checker;
+	                        ^
+src\View\GamePanel.java:123: warning: [serial] non-transient instance field of a serializable class declared with a non-serializable type
+	Player player1;
+	       ^
+src\View\GamePanel.java:127: warning: [serial] non-transient instance field of a serializable class declared with a non-serializable type
+	public Controller controller;
+	                  ^
+src\View\GamePanel.java:129: warning: [serial] non-transient instance field of a serializable class declared with a non-serializable type
+	public Player player;
+	              ^
+src\View\GamePanel.java:130: warning: [serial] non-transient instance field of a serializable class declared with a non-serializable type
+	Enemy enemy;
+	      ^
+src\View\UIElements.java:32: warning: [serial] serializable class UIElements has no definition of serialVersionUID
+public class UIElements extends JPanel  implements ActionListener{ //implements ActionListener
+       ^
+src\View\InstructionWindow.java:19: warning: [rawtypes] found raw type: JComboBox
+    JComboBox options;
+    ^
+  missing type arguments for generic class JComboBox<E>
+  where E is a type-variable:
+    E extends Object declared in class JComboBox
+src\View\InstructionWindow.java:42: warning: [rawtypes] found raw type: JComboBox
+        options = new JComboBox(languages);
+                      ^
+  missing type arguments for generic class JComboBox<E>
+  where E is a type-variable:
+    E extends Object declared in class JComboBox
+src\View\InstructionWindow.java:42: warning: [unchecked] unchecked call to JComboBox(E[]) as a member of the raw type JComboBox
+        options = new JComboBox(languages);
+                  ^
+  where E is a type-variable:
+    E extends Object declared in class JComboBox
+23 warnings
